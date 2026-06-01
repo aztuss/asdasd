@@ -1,2 +1,14 @@
-# Google App Engine generated folder
-appengine-generated/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backtest Data and Results (Huge number of files, do not upload)
+data/cache/*.csv
+backtest/results/*.csv
+
+# Logs
+logs/*.log
+
+# Environment variables (Never upload secrets!)
+.env
